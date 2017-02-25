@@ -4,7 +4,9 @@ Some days ago I was studing and learning about Web Development but I'm not was n
 I'm using the [`Habitica`](https://habitica.com/) to manage my tasks during the day and the week.
 
 The days ago I don't remember either write down the courses I did and what I learned.
- 
+
+Let's to start.
+
 ## February 13, 2017
 I completed the [`Codecademy's Course: Learn HTML & CSS: Part I`](https://www.codecademy.com/learn/learn-html-css)
 
