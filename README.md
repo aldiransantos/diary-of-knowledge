@@ -26,12 +26,12 @@ I started the course of [`Free Code Camp: Learn to Code and Help Nonprofits`](ht
 ### What I learned:
 
 #### HTML5 and CSS
-  - **class="nameClass01 nameClass02 ... nameClassN"** | that is how we can to separate nameClasses in the same class
+  - **class="nameClass01 nameClass02 ... nameClassN"** | that is, how we can to separate nameClasses in the same class
   - **!important** | to give priority to some class or id, in other words, it override whatever parameter passed to another class or id
   
 #### Bootstrap
   - **col-xs-4** | col = column, xs = extra small, 4 = number of parts that you want to catch. There are 12 parts of column in Bootstrap, I caught 4 parts
-  - **col-md-*** | md = medium, * = all. Catchs all parts of columns that is 12 parts
+  - **col-md-*** | md = medium, * = all. Catchs all parts of columns, that is, 12 parts
   - **class="img-responsive"** | class of Bootstrap. Turns your image in a responsive image
   - **```<i class="fa fa=into-up"></i>```** | Like icon
   - **```<i class="fa fa-into-trash"></i>```** | Trash icon
