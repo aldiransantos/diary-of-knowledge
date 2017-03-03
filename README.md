@@ -278,3 +278,16 @@ CRIAR UM SISTEMAZINHO MOSTRANDO O PREÇO DE VIAJENS PARA CAPITAIS COM JQUERY
 - ```<img src="#" alt="image#" class="img-rounded">``` | little circle in the borders of image
 - ```<img src="#" alt="image#" class="img-circle">``` | to circle the image
 - ```<img src="#" alt="image#" class="img-thumbnail">``` | line around the image with a little border
+
+- ```<p class="text-muted"> ``` | text gray
+- ```<p class="text-primary"> ``` | text light blue
+- ```<p class="text-success"> ``` | text green
+- ```<p class="text-warning"> ``` | text orange
+- ```<p class="text-info"> ``` | text blue
+- ```<p class="text-danger"> ``` | text red
+
+- ```<p class="bg-primary"> ``` | background light blue
+- ```<p class="bg-success"> ``` | background green
+- ```<p class="bg-warning"> ``` | background yellow
+- ```<p class="bg-info"> ``` | background blue
+- ```<p class="bg-danger"> ``` | background red
