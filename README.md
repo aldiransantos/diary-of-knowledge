@@ -1,5 +1,5 @@
 # Diary of Knowledge
-Some days ago I was studing and learning about Web Development but I'm not was noting what I was learning. I decided to create a diary to know what I'm learning and remember when I forget something.
+Some days ago I was studying and learning about Web Development but I'm not was noting what I was learning. I decided to create a diary to know what I'm learning and remember when I forget something.
 
 I'm using the [`Habitica`](https://habitica.com/) to manage my tasks during the day and the week.
 
