@@ -273,21 +273,28 @@ CRIAR UM SISTEMAZINHO MOSTRANDO O PREÇO DE VIAJENS PARA CAPITAIS COM JQUERY
 - ```<a href="# "class="btn btn-default btn-block">``` | the button take all space available
 - ```<a href="# "class="btn btn-default active">``` | button active
 - ```<a href="# "class="btn btn-default disable">``` | button disable
-
 - ```<img src="#" alt="image#" class="img-responsive">``` | responsive image
 - ```<img src="#" alt="image#" class="img-rounded">``` | little circle in the borders of image
 - ```<img src="#" alt="image#" class="img-circle">``` | to circle the image
 - ```<img src="#" alt="image#" class="img-thumbnail">``` | line around the image with a little border
-
 - ```<p class="text-muted"> ``` | text gray
 - ```<p class="text-primary"> ``` | text light blue
 - ```<p class="text-success"> ``` | text green
 - ```<p class="text-warning"> ``` | text orange
 - ```<p class="text-info"> ``` | text blue
 - ```<p class="text-danger"> ``` | text red
-
 - ```<p class="bg-primary"> ``` | background light blue
 - ```<p class="bg-success"> ``` | background green
 - ```<p class="bg-warning"> ``` | background yellow
 - ```<p class="bg-info"> ``` | background blue
 - ```<p class="bg-danger"> ``` | background red
+
+## March 4, 2017
+
+#### Boostrap
+- **```<span class="glyphicon glyphicon-search"></span>```** | to show a magnifier icon
+- **```<span class="glyphicon glyphicon-envelope pull-right"></span>```** | to show a 
+envelope icon in right side
+
+##### To see more icons click in [`Bootstrap Glyphicons`](http://getbootstrap.com/components/)
+
