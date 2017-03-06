@@ -119,88 +119,88 @@ O outro é o hard (git reset HEAD~1 --hard) onde nao tem moleza. Ele volta quant
 ## February 19, 2017
 
 #### CSS
-- **```display: flex; | Too let the itens of horizontal form
-- **```flex-wrap: wrap; | Items wrap around to additional lines
-- **```content-flex: center; | Itens align in the center of a div
-- **```:active | To active some item
+- **```display: flex;```** | Too let the itens of horizontal form
+- **```flex-wrap: wrap;```** | Items wrap around to additional lines
+- **```content-flex: center;```** | Itens align in the center of a div
+- **```:active```** | To active some item
 
 ## February 21, 2017
 
 #### jQuery - biblioteca do Javascript
-- **```$(document).ready(function(){}); | Estrutura inicial do jQuery
-- **```:nth-child('number'); | Seleciona a posição de um elemento dentro de outro elemento. Exemplo: se fosse ('ol :nth-child(2)') iria selecionar a li de número 2 dentro da ol 
-- **```.append() | insere um elemento na ultima posição de um elemento alvo
-- **```.prepend() | insere na primeira posição
-- **```.before() | antes de um elemento
-- **```.after() | depois de um elemento
-- **```.empty() | esvazia todos os elementos dentro de uma tag
-- **```.delete() | deleta o elemento atual e todas as suas tags
-- **```.height e .width | pode ser usado para aumentar ou diminuir a altura e/ou largura de um elemento
-- **```.css("border-radius", "10px") | Também pode-se colocar a estrutura do CSS para modificar algum elemento
-- **```.html("I love jQuery!") | Assim como pode ser feito com html
+- **```$(document).ready(function(){});```** | Estrutura inicial do jQuery
+- **```:nth-child('number');```** | Seleciona a posição de um elemento dentro de outro elemento. Exemplo: se fosse ('ol :nth-child(2)') iria selecionar a li de número 2 dentro da ol 
+- **```.append()```** | insere um elemento na ultima posição de um elemento alvo
+- **```.prepend()```** | insere na primeira posição
+- **```.before()```** | antes de um elemento
+- **```.after()```** | depois de um elemento
+- **```.empty()```** | esvazia todos os elementos dentro de uma tag
+- **```.delete()```** | deleta o elemento atual e todas as suas tags
+- **.height e .width** | pode ser usado para aumentar ou diminuir a altura e/ou largura de um elemento
+- **```.css("border-radius", "10px")```** | Também pode-se colocar a estrutura do CSS para modificar algum elemento
+- **```.html("I love jQuery!")```** | Assim como pode ser feito com html
 - **```$('element').over(function{
 	$(this).addClass('cssClass');	
 },
 	$(this).removeClass('cssClass');
-);
+);```**
 Para dar efeito a um "botao" quando o mouse é passado por cima dele
-- **```.focus(function() {}); | dar foco a algum elemento
-- **```jQuery UI | é o jQuery com AJAX
+- **```.focus(function() {});```** | dar foco a algum elemento
+- **jQuery UI** | é o jQuery com AJAX
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-- .draggable() | é uma função que faz voce arrastar um item criado para algum lugar da tela do seu navegador (MUITO MASSA, VARIAS IDEIAS)
-- **```.selectable() | da algum efeito em um item selecionado
-- **```.accordion() | dá efeito de abrir o que estiver dentro de um elemento. Efeito sanfona
+- **```.draggable()```** | é uma função que faz voce arrastar um item criado para algum lugar da tela do seu navegador (MUITO MASSA, VARIAS IDEIAS)
+- **```.selectable()```** | da algum efeito em um item selecionado
+- **```.accordion()```** | dá efeito de abrir o que estiver dentro de um elemento. Efeito sanfona
 
 ## February 22, 2017
 
 #### CSS
-- **```overflow | pode receber o atributo scroll ou hidden, que serve para mostrar ou não a barra de rolagem
+- **overflow** | pode receber o atributo scroll ou hidden, que serve para mostrar ou não a barra de rolagem
 
 ## February 23, 2017
 
 #### Games
-- REKT = Completamente Destruido
+- **REKT** = Completamente Destruido
 
 #### jQuery
-- **Mouse Events = click | dbclick | focusin | fucusout | mousedown | mouseup | mousemove | mouseout | mouseover | mouseleave | mouseenter
-- **```fuction nome_da_função(){parametros};
-- **Keyboard Events = keypress | keydown | keyup
-- **Form Events = blur | focus | select | submit | change
-- **Object Methods = .fadeIn() | .fadeOut() | .fadeToggle()
-- event.preventDefault = Faz com que, ao clicar em algum evento, a página não vá para o topo
+- **Mouse Events** | click - dbclick - focusin - fucusout - mousedown - mouseup - mousemove - mouseout - mouseover - mouseleave - mouseenter
+- **```fuction nome_da_função(){parametros}```**;
+- **Keyboard Events** | keypress - keydown - keyup
+- **Form Events** | blur - focus - select - submit - change
+- **Object Methods** | .fadeIn() - .fadeOut() - .fadeToggle()
+- **event.preventDefault** | Faz com que, ao clicar em algum evento, a página não vá para o topo
 
 ## February 24, 2017
 
 #### jQuery
 
-- .attr() | adicionar atributo a alguma coisa
-- .appendTo() | adicionar algum elemento para um outro local
-- .clone() | duplicar elemento
-- :nth-child | numero da colocação da criança. n-numero, th-colocação, tipo fourth, fiveth...
-- .addClass("animated hinge") | faz a tela cair
-- .addClass("shake") | treme para um lado e para o outro
-- .addClass("bounce") | treme pra cima e pra baixo
+- **```.attr()```** | adicionar atributo a alguma coisa
+- **```.appendTo()```** | adicionar algum elemento para um outro local
+- **```.clone()```** | duplicar elemento
+- **```:nth-child```** | numero da colocação da criança. n-numero, th-colocação, tipo fourth, fiveth...
+- **```.addClass("animated hinge")```** | faz a tela cair
+- **```.addClass("shake")```** | treme para um lado e para o outro
+- **```.addClass("bounce")```** | treme pra cima e pra baixo
 
 CRIAR UM SISTEMAZINHO MOSTRANDO O PREÇO DE VIAJENS PARA CAPITAIS COM JQUERY
 
 ## February 25, 2017
 
 #### Habitica
-- básicos -> carne, 
-- branco -> leite, 
-- deserto -> batata, 
-- vermelho -> morango, 
-- sombrio -> chocolate, 
-- esqueleto -> peixe, 
-- zumbi -> carne podre, 
-- rosa -> algodão doce rosa, 
-- azul -> algodão doce azul, 
-- dourado -> mel
+- **Base** -> Meat 
+- **CC Blue** -> Blue Cotton Candy
+- **CC Pink** -> Pink Cotton Candy
+- **Desert** -> Potato
+- **Golden** -> Honey
+- **Red** -> Strawberry
+- **Shade** -> Chocolate
+- **Skeleton** -> Fish
+- **White** -> Milk 
+- **Zombie** -> Rotten Meat
 
 ## February 26, 2017
 
 #### CS
-- border-collapse = serve para ligar as linhas que parecerem separadas
+- **```border-collapse = serve para ligar as linhas que parecerem separadas
 
 ## March 1, 2017
 
@@ -218,75 +218,75 @@ CRIAR UM SISTEMAZINHO MOSTRANDO O PREÇO DE VIAJENS PARA CAPITAIS COM JQUERY
 ## March 2, 2017
 
 #### Bootstrap
-- ```<small> conteudo </small>``` | diminui o tamanho de texto
-- ```class="lead"``` | dar destaque a alguma coisa. ela adiciona um font-size de 21px automaticamente
-- ```<mark> conteudo``` </mark> | dá aparencia de marca texto no que desejar ser aplicado
-- ```<del> conteudo </del>``` | risca no meio um texto
-- ```<ins> conteudo </ins>``` | sublinhar o texto
-- ```<class="text-right/center/justify/nowrap">``` | alinhar texto para direita/centralizar/justificar/nao quebrar linha
-- ```<class="text-lowercase/uppercase/capitalize">``` | caixa baixa/caixa alta/todas as palavras com a primeira letra em maiusculo
-- ```<abbr title="este texto foi abreviado"> conteudo </aabr>``` | abreviar texto
-- ```<adress> conteudo </adress>``` | cria um texto focado em endereço de algo
-- ```<class="text-muted">``` | texto para tirar o destaque dele
-- ```<class="text-primary">``` | texto fica azul claro
-- ```<class="text-success">``` | verde
-- ```<class="text-info">``` | azul escuro
-- ```<class="text-warning">``` | amarelo esculo
-- ```<class="text-danger">``` | vermelho
-- ```<blockquote> conteudo </blockquote>``` | texto de citação
-- ```<cite> conteudo </cite>``` | citação
-- ```<class="pull-right">``` | empurrar para direita
-- ```<ul class="list-unstyled>``` | tirar os pontos que aparecem nas listas
-- ```<ul class="list-inline>``` | exibir os elementos em linha
-- ```<dl><dt><dd>``` | lista de titulo e descrição
-- ```<dl class="dl-horizontal">``` | titulo do lado esquerdo, descrição do lado direito
-- ```<table class="table table-striped">``` | cor sim, cor não na tabela
-- ```<table class="table table-bordered">``` | pintar as bordas da tabela
-- ```<table class="table table-condensed">``` | estreitar as linhas
-- ```<table class="table table-hover">``` | a linha escurece quando o mouse é passado por cima
-- ```<tr class="active">``` | linha ativa no momento
-- ```<div class="table-responsive">``` | dar responsividade para a tabela
-- ```<form class="form-inline">``` | deixar o itens do formulario um do lado do outro
-- ```<form class="form-horizontal">``` | deixar a o formulario na horizontal
-- ```<div class="form-group">``` | para criação de formulario
-- ```<label class="sr-only">``` | fazer o nome do label desaperecer na tela
-- ```<input class="form-control">``` | para formulario se adequar automaticamente ao tamanho da tela
-- ```<p class="form-control-static">``` | criar um elemento que não sofre modificação
-- ```<input class="has-feedback">``` <span class="glyphicon glyphicon-ok/warning-sign/remove form-control-feedback"> | para validação de campo/aviso/simbolo de excluir
-- ```<span class="help-block">``` | aviso para ser dado sob algum elemento
+- **```<small> conteudo </small>```** | diminui o tamanho de texto
+- **```class="lead"```** | dar destaque a alguma coisa. ela adiciona um font-size de 21px automaticamente
+- **```<mark> conteudo </mark>```** | dá aparencia de marca texto no que desejar ser aplicado
+- **```<del> conteudo </del>```** | risca no meio um texto
+- **```<ins> conteudo </ins>```** | sublinhar o texto
+- **```<class="text-right/center/justify/nowrap">```** | alinhar texto para direita/centralizar/justificar/nao quebrar linha
+- **```<class="text-lowercase/uppercase/capitalize">```** | caixa baixa/caixa alta/todas as palavras com a primeira letra em maiusculo
+- **```<abbr title="este texto foi abreviado"> conteudo </aabr>```** | abreviar texto
+- **```<adress> conteudo </adress>```** | cria um texto focado em endereço de algo
+- **```<class="text-muted">```** | texto para tirar o destaque dele
+- **```<class="text-primary">```** | texto fica azul claro
+- **```<class="text-success">```** | verde
+- **```<class="text-info">```** | azul escuro
+- **```<class="text-warning">```** | amarelo esculo
+- **```<class="text-danger">```** | vermelho
+- **```<blockquote> conteudo </blockquote>```** | texto de citação
+- **```<cite> conteudo </cite>```** | citação
+- **```<class="pull-right">```** | empurrar para direita
+- **```<ul class="list-unstyled>```** | tirar os pontos que aparecem nas listas
+- **```<ul class="list-inline>```** | exibir os elementos em linha
+- **```<dl><dt><dd>```** | lista de titulo e descrição
+- **```<dl class="dl-horizontal">```** | titulo do lado esquerdo, descrição do lado direito
+- **```<table class="table table-striped">```** | cor sim, cor não na tabela
+- **```<table class="table table-bordered">```** | pintar as bordas da tabela
+- **```<table class="table table-condensed">```** | estreitar as linhas
+- **```<table class="table table-hover">```** | a linha escurece quando o mouse é passado por cima
+- **```<tr class="active">```** | linha ativa no momento
+- **```<div class="table-responsive">```** | dar responsividade para a tabela
+- **```<form class="form-inline">```** | deixar o itens do formulario um do lado do outro
+- **```<form class="form-horizontal">```** | deixar a o formulario na horizontal
+- **```<div class="form-group">```** | para criação de formulario
+- **```<label class="sr-only">```** | fazer o nome do label desaperecer na tela
+- **```<input class="form-control">```** | para formulario se adequar automaticamente ao tamanho da tela
+- **```<p class="form-control-static">```** | criar um elemento que não sofre modificação
+- **```<input class="has-feedback">```** <span class="glyphicon glyphicon-ok/warning-sign/remove form-control-feedback"> | para validação de campo/aviso/simbolo de excluir
+- **```<span class="help-block">```** | aviso para ser dado sob algum elemento
 
 ## March 3, 2017
 
 #### Boostrap
-- ```<a href="# "class="btn btn-default">``` | button default
-- ```<a href="# "class="btn btn-primary">``` | button blue
-- ```<a href="# "class="btn btn-success">``` | button green
-- ```<a href="# "class="btn btn-info">``` | button light blue
-- ```<a href="# "class="btn btn-warning">``` | button orange
-- ```<a href="# "class="btn btn-danger">``` | button red
-- ```<a href="# "class="btn btn-link">``` | button link visualization
-- ```<a href="# "class="btn btn-primary btn-xs">``` | button extra small
-- ```<a href="# "class="btn btn-info btn-sm">``` | button small
-- ```<a href="# "class="btn btn-default">``` | button size normal (default)
-- ```<a href="# "class="btn btn-danger btn-lg">``` | button long
-- ```<a href="# "class="btn btn-default btn-block">``` | the button take all space available
-- ```<a href="# "class="btn btn-default active">``` | button active
-- ```<a href="# "class="btn btn-default disable">``` | button disable
-- ```<img src="#" alt="image#" class="img-responsive">``` | responsive image
-- ```<img src="#" alt="image#" class="img-rounded">``` | little circle in the borders of image
-- ```<img src="#" alt="image#" class="img-circle">``` | to circle the image
-- ```<img src="#" alt="image#" class="img-thumbnail">``` | line around the image with a little border
-- ```<p class="text-muted"> ``` | text gray
-- ```<p class="text-primary"> ``` | text light blue
-- ```<p class="text-success"> ``` | text green
-- ```<p class="text-warning"> ``` | text orange
-- ```<p class="text-info"> ``` | text blue
-- ```<p class="text-danger"> ``` | text red
-- ```<p class="bg-primary"> ``` | background light blue
-- ```<p class="bg-success"> ``` | background green
-- ```<p class="bg-warning"> ``` | background yellow
-- ```<p class="bg-info"> ``` | background blue
-- ```<p class="bg-danger"> ``` | background red
+- **```<a href="# "class="btn btn-default">```** | button default
+- **```<a href="# "class="btn btn-primary">```** | button blue
+- **```<a href="# "class="btn btn-success">```** | button green
+- **```<a href="# "class="btn btn-info">```** | button light blue
+- **```<a href="# "class="btn btn-warning">```** | button orange
+- **```<a href="# "class="btn btn-danger">```** | button red
+- **```<a href="# "class="btn btn-link">```** | button link visualization
+- **```<a href="# "class="btn btn-primary btn-xs">```** | button extra small
+- **```<a href="# "class="btn btn-info btn-sm">```** | button small
+- **```<a href="# "class="btn btn-default">```** | button size normal (default)
+- **```<a href="# "class="btn btn-danger btn-lg">```** | button long
+- **```<a href="# "class="btn btn-default btn-block">```** | the button take all space available
+- **```<a href="# "class="btn btn-default active">```** | button active
+- **```<a href="# "class="btn btn-default disable">```** | button disable
+- **```<img src="#" alt="image#" class="img-responsive">```** | responsive image
+- **```<img src="#" alt="image#" class="img-rounded">```** | little circle in the borders of image
+- **```<img src="#" alt="image#" class="img-circle">```** | to circle the image
+- **```<img src="#" alt="image#" class="img-thumbnail">```** | line around the image with a little border
+- **```<p class="text-muted">```** | text gray
+- **```<p class="text-primary">```** | text light blue
+- **```<p class="text-success">```** | text green
+- **```<p class="text-warning">```** | text orange
+- **```<p class="text-info">```** | text blue
+- **```<p class="text-danger">```** | text red
+- **```<p class="bg-primary">```** | background light blue
+- **```<p class="bg-success">```** | background green
+- **```<p class="bg-warning">```** | background yellow
+- **```<p class="bg-info">```** | background blue
+- **```<p class="bg-danger">```** | background red
 
 ## March 4, 2017
 
@@ -295,5 +295,5 @@ CRIAR UM SISTEMAZINHO MOSTRANDO O PREÇO DE VIAJENS PARA CAPITAIS COM JQUERY
 - **```<span class="glyphicon glyphicon-envelope pull-right"></span>```** | to show a 
 envelope icon in right side
 
-##### To see more icons click in [`Bootstrap Glyphicons`](http://getbootstrap.com/components/)
+##### To see more icons click in [Bootstrap Glyphicons](http://getbootstrap.com/components/)
 
