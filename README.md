@@ -1,24 +1,24 @@
 # Diary of Knowledge
 Some days ago I was studying and learning about Web Development but I'm not was noting what I was learning. I decided to create a diary to know what I'm learning and remember when I forget something.
 
-I'm using the [`Habitica`](https://habitica.com/) to manage my tasks during the day and the week.
+I'm using the [Habitica](https://habitica.com/) to manage my tasks during the day and the week.
 
 The days ago I don't remember either write down the courses I did and what I learned.
 
 Let's to start.
 
 ## February 13, 2017
-I completed the [`Codecademy's Course: Learn HTML & CSS: Part I`](https://www.codecademy.com/learn/learn-html-css)
+I completed the [Codecademy's Course: Learn HTML & CSS: Part I](https://www.codecademy.com/learn/learn-html-css)
 
 ## February 14, 2017
-I completed almost all projects in [`General Assembly`](https://dash.generalassemb.ly/)
+I completed almost all projects in [General Assembly](https://dash.generalassemb.ly/)
 
 P.S. I will still do the Tumblr Project
 
 ## From the 15th to the 16th of February 2017
-I completed [`Flexbox Frog`](http://flexboxfroggy.com/) and I learned more about CSS
+I completed [Flexbox Frog](http://flexboxfroggy.com/) and I learned more about CSS
 
-I started the course of [`Free Code Camp: Learn to Code and Help Nonprofits`](http://freecodecamp.com/)
+I started the course of [Free Code Camp: Learn to Code and Help Nonprofits](http://freecodecamp.com/)
  - Getting Started;
  - Front End Development Certification: 
   - HTML5 and CSS;
@@ -42,7 +42,7 @@ I started the course of [`Free Code Camp: Learn to Code and Help Nonprofits`](ht
   - **```<button type="submit" class="btn form-control"></button>```** | Used for submit button
   
 ## From the 16th to the 17th of February 2017
-I completed the course [`Learn the Command Line`](https://www.codecademy.com/learn/learn-the-command-line) in [`Codecademy`](https://www.codecademy.com)
+I completed the course [Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line) in [Codecademy](https://www.codecademy.com)
 
 ### I learned the follow commands:
 - **```ls```** | Lists
@@ -113,8 +113,8 @@ O outro é o hard (git reset HEAD~1 --hard) onde nao tem moleza. Ele volta quant
 ## From the 18th to the 19th of February 2017
 
 #### CSS
-- vertical-align: middle; | to put the content in the middle of thing in the vertical
-- text-shadow: 2px 2px 8px #FF0000; 
+- **```vertical-align: middle;```** | to put the content in the middle of thing in the vertical
+- **```text-shadow: 2px 2px 8px #FF0000;```** 
 
 ## February 19, 2017
 
@@ -163,10 +163,10 @@ Para dar efeito a um "botao" quando o mouse é passado por cima dele
 
 #### jQuery
 - **Mouse Events** | click - dbclick - focusin - fucusout - mousedown - mouseup - mousemove - mouseout - mouseover - mouseleave - mouseenter
-- **```fuction nome_da_função(){parametros}```**;
 - **Keyboard Events** | keypress - keydown - keyup
 - **Form Events** | blur - focus - select - submit - change
 - **Object Methods** | .fadeIn() - .fadeOut() - .fadeToggle()
+- **```fuction nome_da_função(){parametros}```**;
 - **event.preventDefault** | Faz com que, ao clicar em algum evento, a página não vá para o topo
 
 ## February 24, 2017
@@ -180,8 +180,6 @@ Para dar efeito a um "botao" quando o mouse é passado por cima dele
 - **```.addClass("animated hinge")```** | faz a tela cair
 - **```.addClass("shake")```** | treme para um lado e para o outro
 - **```.addClass("bounce")```** | treme pra cima e pra baixo
-
-CRIAR UM SISTEMAZINHO MOSTRANDO O PREÇO DE VIAJENS PARA CAPITAIS COM JQUERY
 
 ## February 25, 2017
 
@@ -200,7 +198,7 @@ CRIAR UM SISTEMAZINHO MOSTRANDO O PREÇO DE VIAJENS PARA CAPITAIS COM JQUERY
 ## February 26, 2017
 
 #### CS
-- **```border-collapse = serve para ligar as linhas que parecerem separadas
+- **border-collapse** | serve para ligar as linhas que parecerem separadas
 
 ## March 1, 2017
 
