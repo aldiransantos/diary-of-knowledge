@@ -211,7 +211,7 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
  - Small - between 750 and 970px | col-sm
  - Medium - between 970 and 1170px | col-md
  - Great - up 1170px | Col-Ig
-- col-xs-offset-6 | deixa as 6 primeiras colunas vazias
+- col-xs-offset-6 | Makes the first 6 columns empty
 
 ## March 2, 2017
 
