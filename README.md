@@ -135,7 +135,7 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 - **```.after()```** | After an element
 - **```.empty()```** | Empty all elements within a tag
 - **```.delete()```** | Deletes the current element and all its tags
-- **.height e .width** | Used to increase or decrease the height and / or width of an element
+- **```.height / .width```** | Used to increase or decrease the height and / or width of an element
 - **```.css("border-radius", "10px")```** | You can also put the structure of the CSS to modify some element
 - **```.html("I love jQuery!")```** | Just as it can be done with html
 - **```$('element').over(function{
@@ -207,11 +207,10 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 #### Bootstrap
 
 - Bootstrap Screen Sizes:
--- Very small - up to 750px | col-xs
--- Small - between 750 and 970px | col-sm
--- Medium - between 970 and 1170px | col-md
--- Great - up 1170px | Col-Ig
-
+ - Very small - up to 750px | col-xs
+ - Small - between 750 and 970px | col-sm
+ - Medium - between 970 and 1170px | col-md
+ - Great - up 1170px | Col-Ig
 - col-xs-offset-6 | deixa as 6 primeiras colunas vazias
 
 ## March 2, 2017
