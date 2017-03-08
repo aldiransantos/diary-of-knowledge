@@ -72,48 +72,48 @@ I completed the course [`Learn Git`](https://www.codecademy.com/learn/learn-git)
 
 - **```git init```** | Initialize the git
 - **```touch```** | To create a file
-- **```git add name_file```** | direciona o arquivo para ser comitado
-- **```git commit -m "Commit's message"```** | 'comita' o arquivo com uma mensagem
-- **```git commit```** | normalmente usado para comitar mais de um arquivo. Abrirá uma janela para você escrever comentários sobre as mudanças de seus arquivos
-- **```:q```** | serve para sair do editor de commit apos salvar apertando Ctrl+O
-- **```git commit -a -m "comentario"```** | o "-a" serve para comitar todos os arquivos que estiverem para serem comitados
-- **```git status```** | mostra o status do(s) arquivo(s)
-- **```git log```** | informa por quem e quando o arquivo foi 'comitado'
+- **```git add name_file```** | Directs the file to be committed
+- **```git commit -m "Commit's message"```** | 'Commit' the file with a message
+- **```git commit```** | Is usually used to commit more than one file. It will open a window for you to write comments about the changes of your files
+- **```:q```** | Used to exit the commit editor after saving by pressing Ctrl + O
+- **```git commit -a -m "comentario"```** | The "-a" is used to commit all files that are to be committed
+- **```git status```** | Shows the status of the file (s)
+- **```git log```** | Informs by whom and when the file was 'committed'
 - **```git branch new_file```** | To create a new branch 
-- **```git log -p```** | ver todos os comits e suas alterações
-- **```git log - p 2```** | ver os 2 ultimos commits e suas alterações. o numero pode mudar para voce alcançar mais commits
-- **```git log --stats```** | mostra as estatisticas de mudança dos arquivos
-- **```.gitignore```** | responsavel por guardar quais arquivos podem ser ignorados pelo usuario no git status
-- **```git reset HEAD <file>```** | volta o arquivo do modo 'Changes to be comitted' para 'Untracked files'
-- **```git add . ```** | adiciona todos os arquivos que estao em 'Untracked files'
-- **```git log pretty=oneline```** | mostra os commits uma linha por vez
-- **```git log --since=2.days```** | mostra os commits realizados a dois dias atras
-- **```git checkout <numero do commit>```** | serve para voltar a versão de um commit dado. 
-- **```git reset HEAD~numero```** | volta um commit de acordo com o numero que colocar. Por exemplo, se colocar o numero 1, vai voltar 1 commit, se colocar o numero 2, dois commits, and so on
-existem dois tipos de git reset HEAD. Um é o soft (git reset HEAD~1 --soft) serve para voltar quantos commits voce quiser sem excluir os arquivos que sofreram alteração, podendo voce altera-los novamente
-O outro é o hard (git reset HEAD~1 --hard) onde nao tem moleza. Ele volta quantos arquivos voce quiser excluindo tudo o que foi modificado em commits anteriores
-- **```master```** | branch principal (o tronco da arvore)
-- **```branch```** | o galho da arvore, ou seja, ramificações criadas para continuar o desenvolvimento de algo
-- **```git branch```** | saber em qual branch esta
-- **```git ckeckout -b nome_do_branch```** | criar um novo branch e dar a ele um nome
-- **```git checkout nome_do_branch```** | vai para o branch que voce deseja
-- **```git merge nome_do_branch```** | vai misturar um branch com o branch atual. se caso voce estiver no branch master, poderá escolher um branch criado para se misturar a ele
-- **```git push origin nome_do_branch```** | empurrar/upar o branch para o site do Github
-- **```git clone url_do_arquivo```** | clona para seu computador o branch atual do Github
-- **```git branch -a```** | mostra todos os branchs que existem locais e remotos
-- **```git pull```** | verifica se todos os arquivos estão sicronizados
-- **```git checkout -b nome_do_branch origin/nome_do_branch```** | cria um branch direto para o repositorio
-- **```git pull origin master```** | trazer as 'alterações' realizadas para o seu computador. É o contrario do push
-- **```git tag numero_do_release (x.x.x)```** | indicar uma versão de um projeto
-- **```git push origin master --tags```** | criar a versão do projeto que aparecerá em release no Github
-- **```git init --bare```** | repositorio criado apenas para servir. apenas para hospedar seus arquivos de controle de versao
-- **```git remote add local ssh://localhost/endereço_dos_seus_arquivos```** | criará um repositorio local
-- **```git push local master```** | adicionar um repositorio local da maquina
+- **```git log -p```** | See all comits and their changes
+- **```git log - p 2```** | See the last 2 commits and their changes. The number can change for you to reach more commits.
+- **```git log --stats```** | Shows the file change statistics
+- **```.gitignore```** | Responsible for saving which files can be ignored by the user in git status
+- **```git reset HEAD <file>```** | Return the file from 'Changes to be comitted' mode to 'Untracked files'
+- **```git add . ```** | Add all files that are in 'Untracked files'
+- **```git log pretty=oneline```** | Shows commits one line at a time
+- **```git log --since=2.days```** | Shows commits made two days ago
+- **```git checkout <numero do commit>```** | Used to return the version of a given commit 
+- **```git reset HEAD~numero```** | Returns a commit according to the number you place. For example, if you put the number 1, it will return 1 commit, if you put the number 2, two commits, and so on. 
+There are two types of git reset HEAD. One is the soft (git reset HEAD ~ 1 --soft) to return as many commits as you want without deleting the files that have changed, and you can change them again
+The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It returns as many files as you want excluding anything that has been modified in previous commits
+- **```master```** | Main branch (the trunk of the tree)
+- **```branch```** | The branch of the tree, that is, branches created to continue the development of something
+- **```git branch```** | Know which branch is in
+- **```git ckeckout -b nome_do_branch```** | Create a new branch and give it a name
+- **```git checkout nome_do_branch```** | Go to the branch you want
+- **```git merge nome_do_branch```** | Will mix a branch with the current branch. If you are in the master branch, you can choose a branch created to mix with it
+- **```git push origin nome_do_branch```** | Push/up the branch to the Github website
+- **```git clone url_do_arquivo```** | Clone to your computer the current Github branch
+- **```git branch -a```** | Shows all branches that exist local and remote
+- **```git pull```** | Verifies that all files are synchronized
+- **```git checkout -b nome_do_branch origin/nome_do_branch```** | Create a branch directly to the repository
+- **```git pull origin master```** | Bring the 'changes' made to your computer. It's the opposite of push
+- **```git tag numero_do_release (x.x.x)```** | Indicate a version of a project
+- **```git push origin master --tags```** | Create the version of the project that will appear in release on Github
+- **```git init --bare```** | Repository created just to serve. Just to host your version control files
+- **```git remote add local ssh://localhost/endereço_dos_seus_arquivos```** | Create a local repository
+- **```git push local master```** | Add a local machine repository
 
 ## From the 18th to the 19th of February 2017
 
 #### CSS
-- **```vertical-align: middle;```** | to put the content in the middle of thing in the vertical
+- **```vertical-align: middle;```** | To put the content in the middle of thing in the vertical
 - **```text-shadow: 2px 2px 8px #FF0000;```** 
 
 ## February 19, 2017
@@ -128,33 +128,32 @@ O outro é o hard (git reset HEAD~1 --hard) onde nao tem moleza. Ele volta quant
 
 #### jQuery - biblioteca do Javascript
 - **```$(document).ready(function(){});```** | Estrutura inicial do jQuery
-- **```:nth-child('number');```** | Seleciona a posição de um elemento dentro de outro elemento. Exemplo: se fosse ('ol :nth-child(2)') iria selecionar a li de número 2 dentro da ol 
-- **```.append()```** | insere um elemento na ultima posição de um elemento alvo
-- **```.prepend()```** | insere na primeira posição
-- **```.before()```** | antes de um elemento
-- **```.after()```** | depois de um elemento
-- **```.empty()```** | esvazia todos os elementos dentro de uma tag
-- **```.delete()```** | deleta o elemento atual e todas as suas tags
-- **.height e .width** | pode ser usado para aumentar ou diminuir a altura e/ou largura de um elemento
-- **```.css("border-radius", "10px")```** | Também pode-se colocar a estrutura do CSS para modificar algum elemento
-- **```.html("I love jQuery!")```** | Assim como pode ser feito com html
+- **```:nth-child('number');```** | Selects the position of an element within another element. Example: if it were ('ol: nth-child (2)') would select the number 2 line inside the ol
+- **```.append()```** | Inserts an element in the last position of a target element
+- **```.prepend()```** | Inserts an element in the first position
+- **```.before()```** | Before an element
+- **```.after()```** | After an element
+- **```.empty()```** | Empty all elements within a tag
+- **```.delete()```** | Deletes the current element and all its tags
+- **.height e .width** | Used to increase or decrease the height and / or width of an element
+- **```.css("border-radius", "10px")```** | You can also put the structure of the CSS to modify some element
+- **```.html("I love jQuery!")```** | Just as it can be done with html
 - **```$('element').over(function{
 	$(this).addClass('cssClass');	
 },
 	$(this).removeClass('cssClass');
-);```**
-Para dar efeito a um "botao" quando o mouse é passado por cima dele
-- **```.focus(function() {});```** | dar foco a algum elemento
-- **jQuery UI** | é o jQuery com AJAX
+);```** - To give effect to a "button" when the mouse is passed over it
+- **```.focus(function() {});```** | Give focus in some element
+- **jQuery UI** | It's jQuery with AJAX
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-- **```.draggable()```** | é uma função que faz voce arrastar um item criado para algum lugar da tela do seu navegador (MUITO MASSA, VARIAS IDEIAS)
-- **```.selectable()```** | da algum efeito em um item selecionado
-- **```.accordion()```** | dá efeito de abrir o que estiver dentro de um elemento. Efeito sanfona
+- **```.draggable()```** | Is a function that causes you to drag an item created somewhere on your browser screen
+- **```.selectable()```** | Effect on a selected item
+- **```.accordion()```** | Gives effect to open what is inside an element. Concertina effect
 
 ## February 22, 2017
 
 #### CSS
-- **overflow** | pode receber o atributo scroll ou hidden, que serve para mostrar ou não a barra de rolagem
+- **overflow** | Receives the scroll or hidden attribute, which serves to show the scroll bar or not
 
 ## February 23, 2017
 
@@ -167,19 +166,19 @@ Para dar efeito a um "botao" quando o mouse é passado por cima dele
 - **Form Events** | blur - focus - select - submit - change
 - **Object Methods** | .fadeIn() - .fadeOut() - .fadeToggle()
 - **```fuction nome_da_função(){parametros}```**;
-- **event.preventDefault** | Faz com que, ao clicar em algum evento, a página não vá para o topo
+- **event.preventDefault** | Causes, when clicking on an event, the page does not go to the top
 
 ## February 24, 2017
 
 #### jQuery
 
-- **```.attr()```** | adicionar atributo a alguma coisa
-- **```.appendTo()```** | adicionar algum elemento para um outro local
-- **```.clone()```** | duplicar elemento
-- **```:nth-child```** | numero da colocação da criança. n-numero, th-colocação, tipo fourth, fiveth...
-- **```.addClass("animated hinge")```** | faz a tela cair
-- **```.addClass("shake")```** | treme para um lado e para o outro
-- **```.addClass("bounce")```** | treme pra cima e pra baixo
+- **```.attr()```** | Add attribute to something
+- **```.appendTo()```** | Add some element to another location
+- **```.clone()```** | Duplicate element
+- **```:nth-child```** | Child's placement number. N-number, th-placement, type fourth, fiveth...
+- **```.addClass("animated hinge")```** | Make a drop screen
+- **```.addClass("shake")```** | Shakes to and fro
+- **```.addClass("bounce")```** | Shake up and down
 
 ## February 25, 2017
 
@@ -198,100 +197,105 @@ Para dar efeito a um "botao" quando o mouse é passado por cima dele
 ## February 26, 2017
 
 #### CS
-- **border-collapse** | serve para ligar as linhas que parecerem separadas
+- **border-collapse** | Used to connect lines that look separate
 
 ## March 1, 2017
 
 #### Brackets
-- Baixei Brackets, pois possui Live Preview para HTML e CSS, no qual você pode ver o que fez no código automaticamente pelo browser Google Chrome
+- I downloaded Brackets because it has Live Preview for HTML and CSS, in which you can see what you did in the code automatically by the Google Chrome browser
 
 #### Bootstrap
-- Tamanhos de telas do Bootstrap:
--- muito pequeno - até 750px | col-xs
--- pequeno - entre 750 e 970px | col-sm
--- medio - entre 970 e 1170px | col-md
--- grande - acima de 1170px | col-lg
-- col-xs-offset-6 = deixa as 6 primeiras colunas vazias
+
+- Bootstrap Screen Sizes:
+-- Very small - up to 750px | col-xs
+-- Small - between 750 and 970px | col-sm
+-- Medium - between 970 and 1170px | col-md
+-- Great - up 1170px | Col-Ig
+
+- col-xs-offset-6 | deixa as 6 primeiras colunas vazias
 
 ## March 2, 2017
 
 #### Bootstrap
-- **```<small> conteudo </small>```** | diminui o tamanho de texto
-- **```class="lead"```** | dar destaque a alguma coisa. ela adiciona um font-size de 21px automaticamente
-- **```<mark> conteudo </mark>```** | dá aparencia de marca texto no que desejar ser aplicado
-- **```<del> conteudo </del>```** | risca no meio um texto
-- **```<ins> conteudo </ins>```** | sublinhar o texto
-- **```<class="text-right/center/justify/nowrap">```** | alinhar texto para direita/centralizar/justificar/nao quebrar linha
-- **```<class="text-lowercase/uppercase/capitalize">```** | caixa baixa/caixa alta/todas as palavras com a primeira letra em maiusculo
-- **```<abbr title="este texto foi abreviado"> conteudo </aabr>```** | abreviar texto
-- **```<adress> conteudo </adress>```** | cria um texto focado em endereço de algo
-- **```<class="text-muted">```** | texto para tirar o destaque dele
-- **```<class="text-primary">```** | texto fica azul claro
-- **```<class="text-success">```** | verde
-- **```<class="text-info">```** | azul escuro
-- **```<class="text-warning">```** | amarelo esculo
-- **```<class="text-danger">```** | vermelho
-- **```<blockquote> conteudo </blockquote>```** | texto de citação
-- **```<cite> conteudo </cite>```** | citação
-- **```<class="pull-right">```** | empurrar para direita
-- **```<ul class="list-unstyled>```** | tirar os pontos que aparecem nas listas
-- **```<ul class="list-inline>```** | exibir os elementos em linha
-- **```<dl><dt><dd>```** | lista de titulo e descrição
-- **```<dl class="dl-horizontal">```** | titulo do lado esquerdo, descrição do lado direito
-- **```<table class="table table-striped">```** | cor sim, cor não na tabela
-- **```<table class="table table-bordered">```** | pintar as bordas da tabela
-- **```<table class="table table-condensed">```** | estreitar as linhas
-- **```<table class="table table-hover">```** | a linha escurece quando o mouse é passado por cima
-- **```<tr class="active">```** | linha ativa no momento
-- **```<div class="table-responsive">```** | dar responsividade para a tabela
-- **```<form class="form-inline">```** | deixar o itens do formulario um do lado do outro
-- **```<form class="form-horizontal">```** | deixar a o formulario na horizontal
-- **```<div class="form-group">```** | para criação de formulario
-- **```<label class="sr-only">```** | fazer o nome do label desaperecer na tela
-- **```<input class="form-control">```** | para formulario se adequar automaticamente ao tamanho da tela
-- **```<p class="form-control-static">```** | criar um elemento que não sofre modificação
-- **```<input class="has-feedback">```** <span class="glyphicon glyphicon-ok/warning-sign/remove form-control-feedback"> | para validação de campo/aviso/simbolo de excluir
-- **```<span class="help-block">```** | aviso para ser dado sob algum elemento
+- **```<small> conteudo </small>```** | Decreases text size
+- **```class="lead"```** | Give emphasis to something. It automatically adds a 21px font-size
+- **```<mark> conteudo </mark>```** | Gives the appearance of text mark in which it wishes to be applied
+- **```<del> conteudo </del>```** | Streak in the middle a text
+- **```<ins> conteudo </ins>```** | Underline text
+- **```<class="text-right/center/justify/nowrap">```** | Align text to right / center / justify / break line
+- **```<class="text-lowercase/uppercase/capitalize">```** | Lowercase / uppercase / all words with the first letter in uppercase
+- **```<abbr title="este texto foi abreviado"> conteudo </aabr>```** | Abbreviate text
+- **```<adress> conteudo </adress>```** | Creates a text that is focused on the address of something
+- **```<class="text-muted">```** | Remove the text highlight
+- **```<class="text-primary">```** | Light blue text
+- **```<class="text-success">```** | Green
+- **```<class="text-info">```** | Dark blue
+- **```<class="text-warning">```** | Dark yellow
+- **```<class="text-danger">```** | Red
+- **```<blockquote> conteudo </blockquote>```** | Citation text
+- **```<cite> conteudo </cite>```** | Citation
+- **```<class="pull-right">```** | Push to right
+- **```<ul class="list-unstyled>```** | Remove the points that appear in the lists
+- **```<ul class="list-inline>```** | Display the elements online
+- **```<dl><dt><dd>```** | Title list and description
+- **```<dl class="dl-horizontal">```** | Left side title, right side description
+- **```<table class="table table-striped">```** | Color yes, color not on the table
+- **```<table class="table table-bordered">```** | Paint the edges of the table
+- **```<table class="table table-condensed">```** | Narrow the lines
+- **```<table class="table table-hover">```** | The line darkens when the mouse is passed over
+- **```<tr class="active">```** | Line currently active
+- **```<div class="table-responsive">```** | Give responsiveness to the table
+- **```<form class="form-inline">```** | Leave the items on the form side by side
+- **```<form class="form-horizontal">```** | Leave the form horizontally
+- **```<div class="form-group">```** | For form creation
+- **```<label class="sr-only">```** | Make the label name disappear on the screen
+- **```<input class="form-control">```** | To fit automatically to the screen size
+- **```<p class="form-control-static">```** | Create an element that does not change
+- **```<input class="has-feedback"> <span class="glyphicon glyphicon-ok/warning-sign/remove form-control-feedback">```** | For field validation / warning / delete symbol
+- **```<span class="help-block">```** | Warning to be given under some element
 
 ## March 3, 2017
 
 #### Boostrap
-- **```<a href="# "class="btn btn-default">```** | button default
-- **```<a href="# "class="btn btn-primary">```** | button blue
-- **```<a href="# "class="btn btn-success">```** | button green
-- **```<a href="# "class="btn btn-info">```** | button light blue
-- **```<a href="# "class="btn btn-warning">```** | button orange
-- **```<a href="# "class="btn btn-danger">```** | button red
-- **```<a href="# "class="btn btn-link">```** | button link visualization
-- **```<a href="# "class="btn btn-primary btn-xs">```** | button extra small
-- **```<a href="# "class="btn btn-info btn-sm">```** | button small
-- **```<a href="# "class="btn btn-default">```** | button size normal (default)
-- **```<a href="# "class="btn btn-danger btn-lg">```** | button long
-- **```<a href="# "class="btn btn-default btn-block">```** | the button take all space available
-- **```<a href="# "class="btn btn-default active">```** | button active
-- **```<a href="# "class="btn btn-default disable">```** | button disable
-- **```<img src="#" alt="image#" class="img-responsive">```** | responsive image
-- **```<img src="#" alt="image#" class="img-rounded">```** | little circle in the borders of image
-- **```<img src="#" alt="image#" class="img-circle">```** | to circle the image
-- **```<img src="#" alt="image#" class="img-thumbnail">```** | line around the image with a little border
-- **```<p class="text-muted">```** | text gray
-- **```<p class="text-primary">```** | text light blue
-- **```<p class="text-success">```** | text green
-- **```<p class="text-warning">```** | text orange
-- **```<p class="text-info">```** | text blue
-- **```<p class="text-danger">```** | text red
-- **```<p class="bg-primary">```** | background light blue
-- **```<p class="bg-success">```** | background green
-- **```<p class="bg-warning">```** | background yellow
-- **```<p class="bg-info">```** | background blue
-- **```<p class="bg-danger">```** | background red
+- **```<a href="# "class="btn btn-default">```** | Button default
+- **```<a href="# "class="btn btn-primary">```** | Button blue
+- **```<a href="# "class="btn btn-success">```** | Button green
+- **```<a href="# "class="btn btn-info">```** | Button light blue
+- **```<a href="# "class="btn btn-warning">```** | Button orange
+- **```<a href="# "class="btn btn-danger">```** | Button red
+- **```<a href="# "class="btn btn-link">```** | Button link visualization
+- **```<a href="# "class="btn btn-primary btn-xs">```** | Button extra small
+- **```<a href="# "class="btn btn-info btn-sm">```** | Button small
+- **```<a href="# "class="btn btn-default">```** | Button size normal (default)
+- **```<a href="# "class="btn btn-danger btn-lg">```** | Button long
+- **```<a href="# "class="btn btn-default btn-block">```** | The button take all space available
+- **```<a href="# "class="btn btn-default active">```** | Button active
+- **```<a href="# "class="btn btn-default disable">```** | Button disable
+- **```<img src="#" alt="image#" class="img-responsive">```** | Responsive image
+- **```<img src="#" alt="image#" class="img-rounded">```** | Little circle in the borders of image
+- **```<img src="#" alt="image#" class="img-circle">```** | To circle the image
+- **```<img src="#" alt="image#" class="img-thumbnail">```** | Line around the image with a little border
+- **```<p class="text-muted">```** | Text gray
+- **```<p class="text-primary">```** | Text light blue
+- **```<p class="text-success">```** | Text green
+- **```<p class="text-warning">```** | Text orange
+- **```<p class="text-info">```** | Text blue
+- **```<p class="text-danger">```** | Text red
+- **```<p class="bg-primary">```** | Background light blue
+- **```<p class="bg-success">```** | Background green
+- **```<p class="bg-warning">```** | Background yellow
+- **```<p class="bg-info">```** | Background blue
+- **```<p class="bg-danger">```** | Background red
 
 ## March 4, 2017
 
 #### Boostrap
-- **```<span class="glyphicon glyphicon-search"></span>```** | to show a magnifier icon
-- **```<span class="glyphicon glyphicon-envelope pull-right"></span>```** | to show a 
-envelope icon in right side
+- **```<span class="glyphicon glyphicon-search"></span>```** | To show a magnifier icon
+- **```<span class="glyphicon glyphicon-envelope pull-right"></span>```** | To show a envelope icon in right side
 
 ##### To see more icons click in [Bootstrap Glyphicons](http://getbootstrap.com/components/)
 
+## March 7, 2017
+
+#### Photoshop
+- Cut images using pen
