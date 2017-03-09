@@ -304,6 +304,11 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 #### Bootstrap
 - Menu DropDown
 - Menu DropUp
-- Menu DropDown inside btn group
+- Button Group
+- Menu DropDown inside Button Group
 - **```<button class="btn-group btn-group-justified">```** | Justify links inside a btn group
 - **```<button class="btn-group btn-group-vertical">```** | Put butttons in vertical position
+- Input Groups
+- Tabs
+- Pills
+- **```<ul class="nav nav-pills nav-stacked">```** | Put the elements of ul in a vertical position
