@@ -298,3 +298,12 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 
 #### Photoshop
 - Cut images using pen
+
+## March 9, 2017
+
+#### Bootstrap
+- Menu DropDown
+- Menu DropUp
+- Menu DropDown inside btn group
+- **```<button class="btn-group btn-group-justified">```** | Justified links inside a btn group
+- **```<button class="btn-group btn-group-vertical">```** | Put butttons in vertical position
