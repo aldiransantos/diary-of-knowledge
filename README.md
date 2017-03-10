@@ -312,3 +312,5 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 - Tabs
 - Pills
 - **```<ul class="nav nav-pills nav-stacked">```** | Put the elements of ul in a vertical position
+- Nav
+- **```<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">```**> | Inverts the colors of navbar
