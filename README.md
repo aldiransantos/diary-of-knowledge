@@ -325,6 +325,6 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 - **```<div class="page-header">```** | Page Header
 - **```<a href="#" class="thumbnail"><img src="img.png" alt="description"></a>```** | Thumbnail
 - **```<div class="progress"><div class="progress-bar" role="progressbar" aria-valuemin="0" ariavaluemaz="100" style="width: 60%"></div></div>```** | Progress Bar 60% completed
-- **```<div class="progress"><div class="progress-bar active" role="progressbar" aria-valuemin="0" ariavaluemaz="100" style="width: 60%"></div></div>```** | Progress bar with animation
+- **```<div class="progress"><div class="progress-bar active" role="progressbar" aria-valuemin="0" ariavaluemaz="100" style="width: 60%"></div></div>```** | Progress Bar with animation
 - **```<div class="alert alert-success">Success!</div>```** | Alert
 - **```<div class="alert alert-danger alert-dismissible"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span>```** | Alert with button to close the message
