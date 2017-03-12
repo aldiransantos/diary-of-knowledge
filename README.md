@@ -356,5 +356,3 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 - **```<div class="well></div>```** | Well Default
 - **```<div class="well well-sm></div>```** | Well Small
 - **```<div class="well well-lg></div>```** | Well Large
-
-```** | Wells
