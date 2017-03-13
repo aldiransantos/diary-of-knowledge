@@ -340,7 +340,7 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 #### Bootstrap
 - **```<ul class="media-list"><li class="media"></li></ul>```** | Media List
 - **```<ul class="list-group"><li class="list-group-item">```** | List Group
-- **``` 
+- **```
 <div class="panel panel-default">
     <div class="panel-heading">
         <h1 class="panel-title">Panel Tittle</h1>
@@ -370,3 +370,8 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 #### After Effects
 - 3D layers and Camera
 - Animating Type
+
+## March 13, 2017
+
+#### Bootstrap
+- Modal Dialog
