@@ -356,3 +356,17 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 - **```<div class="well></div>```** | Well Default
 - **```<div class="well well-sm></div>```** | Well Small
 - **```<div class="well well-lg></div>```** | Well Large
+
+## March 13, 2017
+I completed the course [Animate 3D Parallax Camera in Photoshop and After Effects](https://www.udemy.com/animate-3d-parallax-camera-in-photoshop-and-after-effects/learn/v4/overview)
+
+### What I learned:
+
+#### Photoshop
+- The pen tool
+- Clone stamp tool
+- Patch tool
+
+#### After Effects
+- 3D layers and Camera
+- Animating Type
