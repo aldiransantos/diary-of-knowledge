@@ -373,16 +373,21 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 
 ## March 13, 2017
 
-#### Bootstrap
+#### Javascript in Bootstrap
 - Modal Dialog
 
 ## March 14, 2017
 
-#### Bootstrap
+#### Javascript in Bootstrap
 - Carousel
 
 ## March 15, 2017
 
-#### Bootstrap
+#### Javascript in Bootstrap
 - Tooltip
 - Popover
+
+## March 16, 2017
+
+#### Javascript in Bootstrap
+- Button
