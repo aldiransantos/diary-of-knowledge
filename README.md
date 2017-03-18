@@ -391,3 +391,8 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 
 #### Javascript in Bootstrap
 - Button
+
+## March 17, 2017
+
+#### After Effects
+- Chroma Key Effect
