@@ -400,10 +400,10 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 ## March 18, 2017
 
 #### Boostrap
-- Addons
- - [Layoutit - Interface Builder for Bootstrap](http://www.layoutit.com/)
- - [Bootstrap: Free Themes for Bootstrap](http://bootswatch.com/)
- - [Bootbox.js - alert, confirm and flexible dialogs for the Bootstrap framework](http://bootboxjs.com/)
- - [Twitter Bootstrap Extensions: Notifications](http://goodybag.github.io/bootstrap-notify/)
- - [Date/Time Picker for Twitter Bootstrap](http://tarruda.github.io/bootstrap-datetimepicker/)
+  - Addons
+    - [Layoutit - Interface Builder for Bootstrap](http://www.layoutit.com/)
+    - [Bootstrap: Free Themes for Bootstrap](http://bootswatch.com/)
+    - [Bootbox.js - alert, confirm and flexible dialogs for the Bootstrap framework](http://bootboxjs.com/)
+    - [Twitter Bootstrap Extensions: Notifications](http://goodybag.github.io/bootstrap-notify/)
+    - [Date/Time Picker for Twitter Bootstrap](http://tarruda.github.io/bootstrap-datetimepicker/)
 
