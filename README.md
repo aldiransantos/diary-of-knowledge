@@ -340,17 +340,7 @@ The other is the hard (git reset HEAD ~ 1 --hard) where there is no cakewalk. It
 #### Bootstrap
 - **```<ul class="media-list"><li class="media"></li></ul>```** | Media List
 - **```<ul class="list-group"><li class="list-group-item">```** | List Group
-- **```<div class="panel panel-default">
-    <div class="panel-heading">
-        <h1 class="panel-title">Panel Tittle</h1>
-     </div>             
-     <div class="panel-body">
-        Basic sintax of panel
-     </div>                 
-     <div class="panel-footer">
-         Panel Footer
-     </div>
- </div> ```** | Panels
+- **```<div class="panel panel-default"><div class="panel-heading"><h1 class="panel-title">Panel Tittle</h1></div><div class="panel-body">Basic sintax of panel</div><div class="panel-footer">Panel Footer</div></div> ```** | Panels
 - **```<div class="well></div>```** | Well Default
 - **```<div class="well well-sm></div>```** | Well Small
 - **```<div class="well well-lg></div>```** | Well Large
