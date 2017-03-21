@@ -402,3 +402,11 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 
 #### Bootstrap
 - [Scrollspy](http://getbootstrap.com/javascript/#scrollspy)
+
+## March 20, 2017
+
+#### Bootstrap - CSS
+- [Image shapes](http://getbootstrap.com/css/#images)
+
+#### Site
+- Embed Google maps within a site
