@@ -415,4 +415,9 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 
 #### Bootstrap
 - **```<div class="container-fluid></div>```** | Occupies 100% of the page
+- [Start Bootstrap - Free Bootstrap Themes and Templates](https://startbootstrap.com/)
+- [Subtle Patterns | Free textures for your next web project](https://www.toptal.com/designers/subtlepatterns/page/3/)
+- [Font Awesome, the iconic font and CSS toolkit](http://fontawesome.io/)
+- [50 Must-have plugins for extending Twitter Bootstrap](http://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap/)
+- [Boostrap MaxLength](http://mimo84.github.io/bootstrap-maxlength/)
 - I finished the course [Bootstrap: Trabalhando com Design Responsivo](http://www.devmedia.com.br/curso/bootstrap-trabalhando-com-design-responsivo/407)
