@@ -410,3 +410,9 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 
 #### Site
 - Embed Google maps within a site
+
+## March 21, 2017
+
+#### Bootstrap
+- **```<div class="container-fluid></div>```** | Occupies 100% of the page
+- I finished the course [Bootstrap: Trabalhando com Design Responsivo](http://www.devmedia.com.br/curso/bootstrap-trabalhando-com-design-responsivo/407)
