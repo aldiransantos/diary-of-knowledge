@@ -425,4 +425,4 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 ## March 21, 2017
 
 #### Youtube
-- Complete the course [Youtube Thumbnail](https://www.udemy.com/youtubethumbnails/learn/v4/content)
+- I completed the course [Youtube Thumbnail](https://www.udemy.com/youtubethumbnails/learn/v4/content)
