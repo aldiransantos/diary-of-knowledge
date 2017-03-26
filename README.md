@@ -421,3 +421,8 @@ I completed the course [Animate 3D Parallax Camera in Photoshop and After Effect
 - [50 Must-have plugins for extending Twitter Bootstrap](http://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap/)
 - [Boostrap MaxLength](http://mimo84.github.io/bootstrap-maxlength/)
 - I finished the course [Bootstrap: Trabalhando com Design Responsivo](http://www.devmedia.com.br/curso/bootstrap-trabalhando-com-design-responsivo/407)
+
+## March 21, 2017
+
+#### Youtube
+- Complete the course [Youtube Thumbnail](https://www.udemy.com/youtubethumbnails/learn/v4/content)
